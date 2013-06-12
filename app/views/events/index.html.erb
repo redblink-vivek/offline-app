@@ -1,0 +1,13 @@
+<h1>Events</h1>
+<%= form_tag(root_path, :method=> "post", :id=> "form_submit") do %>
+<%= text_field_tag "name", nil%>
+<%= submit_tag "submit" %>
+<% end %>
+
+<script type="text/html" id="eventTemplate">
+  <li>${name}</li>
+</script>
+<ol id="events">
+</ol>
+
+
