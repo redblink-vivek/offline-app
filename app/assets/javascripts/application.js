@@ -1,4 +1,5 @@
 //= require jquery
+//= require angular/*
 //= require_tree .
 $(function () {
 	  if ($.support.localStorage)
@@ -50,3 +51,6 @@ $(function () {
 
 
 
+//= require angular.min
+//= require angle-up
+//= require_tree ./angular
